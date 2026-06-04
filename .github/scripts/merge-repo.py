@@ -49,9 +49,9 @@ def extract_extension_lib(version: str) -> str:
     raise ValueError(f"Version {version} doesn't contain MAJOR.MINOR")
 
 index = index_pb2.Index(
-    name = "Keiyoushi",
-    badgeLabel = "KEI",
-    signingKey = "9add655a78e96c4ec7a53ef89dccb557cb5d767489fac5e785d671a5a75d4da2",
+    name = "Korason",
+    badgeLabel = "KOR",
+    signingKey = "0da90a957690b899060c2645b472e96d63e0e022d13c879f8b090463113067a9",
     contact=index_pb2.Contact(
         website="https://keiyoushi.github.io",
         discord="https://discord.gg/3FbCpdKbdY"
